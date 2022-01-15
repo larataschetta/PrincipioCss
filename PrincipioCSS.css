@@ -1,0 +1,166 @@
+
+body{
+    background-color: linen;
+    background-image: url(https://images.vexels.com/media/users/3/161573/isolated/lists/373d5622f37e126a974d35b8b644a29a-pato-vista-lateral-plana.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+article{
+    border: 1px solid red;
+}
+
+h2 {
+    color: maroon;
+    margin-left: 1em;
+    margin-bottom: 0.25em;
+    margin-top: 8px;
+
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    
+    line-height: 0.1em; /*?*/
+
+    letter-spacing: 2px;
+    text-decoration-line: line-through;
+}
+
+.parrafoPrincipal {
+    /*margin-top: 0.10em;
+    margin-bottom: 0.5;
+    margin-left: 0.5;
+    margin-right: 0.5;
+    OTRA OPCION:
+    */
+    margin: 10 100 10 1000;
+    border: 1px solid black;
+    opacity: 0.5;
+
+    /*
+    padding: 0.5em;
+    padding: 1(sup) 2(der) 3(inf) 4(izq)    
+    */
+}
+
+.parrafo2 {
+    color: blue;
+    background-color: rgba(149, 58, 177, 0.514);
+}
+
+.parrafo3 {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-pintura-acuarela-rosa-vibrante_53876-58930.jpg?size=626&ext=jpg);
+    background-repeat: repeat-x repeat-y;
+    background-position-x: right;
+    background-position-y: top;
+    /*background-position: right top; */
+    background-attachment: scroll;  /*???*/
+
+    /* OTRA FORMA  background: #ffffff url("img_tree.png") no-repeat right top; */
+
+    /*BORDE*/
+    border: 3px solid royalblue;
+    border-style: dashed;
+    border: 3px dotted royalblue;
+    border: 3px double royalblue;
+    border: 3px groove royalblue;
+    border: 3px ridge royalblue;
+    border: 3px inset royalblue;
+    border-width: 2em;
+    border-color: salmon;
+    border-radius: 2em;
+
+    outline-color: springgreen;
+    outline-style: dotted;
+    outline-offset: 12px;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 250px;
+}
+
+.parrafo4{
+    background: rgb(232, 240, 243);
+
+    border: 3px solid red;
+    margin: 5px;
+    outline: 5px solid rgb(228, 172, 166);
+    outline-offset: 10px;
+
+    /* TEXTO*/
+
+    color: green;
+    text-align: center;
+    text-decoration: line-through 1px;
+    text-transform: uppercase;
+    text-indent: 2px;
+    letter-spacing: 2px;
+    line-height: 150px;
+    text-shadow: 1px 2px 5px red;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+}
+
+.parrafo5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: "lucida console", monospace;
+    font-family: Tahoma, Verdana, sans-serif;/*Here, there are three font types: Tahoma, 
+    Verdana, and sans-serif. The second and third fonts are backups, in case the first one is not found.*/
+    font-style: oblique;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: "Sofia", sans-serif;  /*importadad de google fonts puesto link en head*/
+    
+
+    font-size: 10px;
+    font-size: 1.2vw; /*1vw = 1% of viewport width   text size will follow the size of the browser window:*/
+
+    line-height: 1.5em;
+}
+
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+  
+  /* visited link */
+a:visited {
+    color: green;
+}
+  
+  /* mouse over link */
+a:hover {                   /*a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.*/
+    color: hotpink;
+}
+  
+  /* selected link */
+a:active {                  /*a:active MUST come after a:hover in the CSS definition in order to be effective*/
+    color: blue;
+}
+
+a{
+    text-decoration: none;  /* sacar linea*/
+    cursor: pointer;
+}
+
+a.two:link {color:#1cdd0a;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}
+
+a.three:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.tree:hover, a:active {
+    background-color: green;
+    color: white;
+  }
